@@ -1,19 +1,52 @@
 aid: mentorcloud
 name: MentorCloud
-description: MentorCloud is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MentorCloud is an AI-enabled, enterprise mentoring software platform that helps
+  organizations optimize employee engagement, retention, and career development
+  through structured mentoring programs. It serves HR and Learning & Development
+  teams and enterprise leaders looking to scale human-led learning across
+  engineering, management, higher education, hospitality, and non-profit contexts.
+  The platform covers mentor/mentee matching, program management, sessions,
+  circles, learning, and community, with use cases spanning new-hire onboarding,
+  leadership development, career progression, and Diversity, Equity & Inclusion
+  (DEI) initiatives. MentorCloud is delivered as a hosted B2B SaaS product with
+  managed, custom two-way integrations to enterprise CRM, HR, and single sign-on
+  systems rather than a self-serve public developer API. Surfaced as a 500 Global
+  portfolio company and enriched into the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/mentorcloud/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5f97aed45612e672a043c898/607c65ec9205e0d37a646d20_MC_Open-Graph-Image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-has-public-api: false
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mentoring
+- Mentorship
+- Talent Development
+- Employee Engagement
+- Learning and Development
+- Human Resources
+- SaaS
+- DEI
+- Higher Education
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,28 @@ maintainers:
 common:
 - type: Website
   url: https://mentorcloud.com
+- type: DomainSecurity
+  url: security/mentorcloud-domain-security.yml
+- type: LLMsTxt
+  url: llms/mentorcloud-llms.txt
+- type: ChangeLog
+  url: changelog/mentorcloud-changelog.yml
+- type: ReleaseNotes
+  url: https://mentorcloud.com/release-notes
+- type: Blog
+  url: https://mentorcloud.com/resources/blog
+- type: Pricing
+  url: https://mentorcloud.com/pricing
+- type: TermsOfService
+  url: https://mentorcloud.com/utility/terms
+- type: PrivacyPolicy
+  url: https://mentorcloud.com/utility/privacy-policy
+- type: Community
+  url: https://mentorcloud.com/community
+- type: Login
+  url: https://app.mentorcloud.com/accounts/login/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
