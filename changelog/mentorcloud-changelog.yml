@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: https://mentorcloud.com/release-notes
+docs: https://mentorcloud.com/release-notes
+scheme: marketing-versioned
+note: >-
+  MentorCloud publishes product release notes for its hosted mentoring SaaS
+  (not a developer API). The public release-notes page is sparse and appears
+  stale — the latest published version is V3.0 (April 2022). No dated
+  per-release feed or API changelog is published.
+current_version: '3.0'
+entries:
+  - version: '3.0'
+    date: '2022-04-01'
+    title: MentorCloud V3.0 Release Notes
+    breaking: false
+    highlights:
+      - Upgraded, cleaner and more intuitive user experience.
+      - New home page/dashboard with guidance cards, notifications and recommended mentors/mentees.
+      - Consistent module names standardized to Home, Mentorship, Sessions, Circles, Learn and Community.
+      - Enhanced in-app notifications (bell icon) for session invitations, mentorship requests and major events.
+      - Consolidated messaging infrastructure across the platform; the previous standalone messaging module was deprecated and existing threads migrated.

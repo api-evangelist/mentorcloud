@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of /.well-known/* on the MentorCloud web host
+host: https://www.mentorcloud.com
+note: >-
+  No /.well-known discovery documents are published. MentorCloud is a hosted
+  B2B mentoring SaaS with no public developer API surface; the application
+  backend (api.mentorcloud.com, app.mentorcloud.com) only exposes a
+  session-login page. Empty result is expected and valid.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

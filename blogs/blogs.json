@@ -1,0 +1,14 @@
+{
+  "repo": "mentorcloud",
+  "feeds": [
+    {
+      "source": "https://mentorcloud.com/release-notes",
+      "feed_url": "https://mentorcloud.com/release-notes",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
