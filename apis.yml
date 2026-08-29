@@ -14,6 +14,17 @@ description: >-
   systems rather than a self-serve public developer API. Surfaced as a 500 Global
   portfolio company and enriched into the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/mentorcloud/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
