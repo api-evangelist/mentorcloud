@@ -2,12 +2,12 @@ generated: '2026-07-20'
 method: probed
 source: live probes of /.well-known/* on the MentorCloud web host
 host: https://www.mentorcloud.com
-note: >-
-  No /.well-known discovery documents are published. MentorCloud is a hosted
-  B2B mentoring SaaS with no public developer API surface; the application
-  backend (api.mentorcloud.com, app.mentorcloud.com) only exposes a
-  session-login page. Empty result is expected and valid.
-documents:
+note: No /.well-known discovery documents are published. MentorCloud is a hosted B2B mentoring SaaS with
+  no public developer API surface; the application backend (api.mentorcloud.com, app.mentorcloud.com)
+  only exposes a session-login page. Empty result is expected and valid.
+hosts:
+- host: https://www.mentorcloud.com
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -18,3 +18,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
